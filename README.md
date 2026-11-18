@@ -6,6 +6,12 @@ An end-to-end academic machine learning study of movie-rating prediction and per
 
 > **Project status:** Completed academic notebook, preserved as originally implemented. This repository documents the original experiment; it is **not** a deployed API or a production recommender. Numerical results below are transcribed from saved notebook outputs and have **not** been independently rerun.
 
+## Start here
+
+Open the [original notebook](notebooks/Movie_Recommendation_System.ipynb) to inspect the saved plots, model comparisons, and recommendation output. The [technical design](docs/TECHNICAL_DESIGN.md) explains the pipeline, while the [experiment notes](docs/EXPERIMENTS.md) describe the evaluation limits.
+
+The project has two outputs with different purposes. Rating prediction is compared using the notebook's recorded RMSE and MAPE. The separate SVD++ demonstration ranks movies for an individual user.
+
 ## At a glance
 
 | Area | Original implementation |
